@@ -1,0 +1,71 @@
+/*@font-face {*/
+  /*font-family: 'MyWebFont';*/
+  /*src: url('webfont.eot'); *//* IE9 Compat Modes */
+  /*src: url('webfont.eot?#iefix') format('embedded-opentype'); *//* IE6-IE8 */
+  /*src: url('webfont.woff2') format('woff2'); *//* Super Modern Browsers */
+  /*src: url('webfont.woff') format('woff'); *//* Pretty Modern Browsers */
+  /*src: url('webfont.ttf')  format('truetype'); *//* Safari, Android, iOS */
+  /*src: url('webfont.svg#svgFontName') format('svg'); *//* Legacy iOS */
+/*}*/
+@font-face {
+  font-family: 'BYekan';
+  src: url('/assets/font/BYekan/BYekan.eot'); /* IE9 Compat Modes */
+  src: url('/assets/font/BYekan/BYekan.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
+  src: url('/assets/font/BYekan/BYekan.woff') format('woff'); /* Pretty Modern Browsers */
+  src: url('/assets/font/BYekan/BYekan.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('/assets/font/BYekan/BYekan.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'BBCNassim';
+  src: url('/assets/font/BBCNassim/BBCNassim.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'XeroSans';
+  src: url('/assets/font/XeroSans/XeroxSans_Serif_Normal.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'XeroSansBold';
+  src: url('/assets/font/XeroSans/XeroxSans_Serif_Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+* {
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #F7F7F7;
+    direction: rtl;
+}
+
+#mainWrapper {
+    height: 100%;
+    display: flex;
+}
+
+#rightPane {
+    flex: 3;
+    background-color: #f9f9f9;
+}
+
+#rightPane #rightTopNav {
+    height: 40px;
+    background-color: #DDD;
+}
+
+#rightPane #searchBar {
+    height: 40px;
+    background-color: #e0e0e0;
+}
+
+#leftPane {
+    flex: 9;
+    background-color: #F0F0F0;
+}
